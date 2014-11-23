@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Working Attitude Tests</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Working Attitude Tests">
+  <meta name="author" content="">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <aside class="gdbar">
+    <img src="assets/img/blue-250.png">
+  </aside>
+  <hgroup class="auto-fadein">
+    <h1>Working Attitude Tests</h1>
+    <h2>developing data product - course project</h2>
+    <p><br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></br>
+1. Basic exploratory data analysis study done by <code>shiny</code>.  </p>
+
+<ol>
+<li><p>Use <code>attitude</code> data from package <code>datasets</code>.  </p></li>
+<li><p>Find relationship by linear regression.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Data briefing</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">library(datasets)
+str(attitude)
+</code></pre>
+
+<pre><code>## &#39;data.frame&#39;:    30 obs. of  7 variables:
+##  $ rating    : num  43 63 71 61 81 43 58 71 72 67 ...
+##  $ complaints: num  51 64 70 63 78 55 67 75 82 61 ...
+##  $ privileges: num  30 51 68 45 56 49 42 50 72 45 ...
+##  $ learning  : num  39 54 69 47 66 44 56 55 67 47 ...
+##  $ raises    : num  61 63 76 54 71 54 66 70 71 62 ...
+##  $ critical  : num  92 73 86 84 83 49 68 66 83 80 ...
+##  $ advance   : num  45 47 48 35 47 34 35 41 31 41 ...
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Shinyapps.io</h2>
+  </hgroup>
+  <article data-timings="">
+    <iframe src='assets/img/shinyapps.png' width=600px height=250px>
+</iframe>  
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Further information</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></br>  </p>
+
+<blockquote>
+<p>Due to length limitation of slidify product, please check more detail on <strong>Shinyapps.io</strong> of this project.<br>
+<br></br>  </p>
+</blockquote>
+
+<p><a href='https://neil2003tw.shinyapps.io/Working_Attitude_test/'>Shinyapps-Working Attitude test</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data briefing'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Shinyapps.io'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Further information'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

@@ -1,0 +1,52 @@
+---
+title       : Working Attitude Tests
+subtitle    : developing data product - course project
+author      : 
+job         : 
+logo        : blue-250.png
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+<br></br>
+1. Basic exploratory data analysis study done by ```shiny```.  
+
+2. Use ```attitude``` data from package ```datasets```.  
+
+3. Find relationship by linear regression.
+
+--- .class #id 
+
+## Data briefing  
+
+```{r}
+library(datasets)
+str(attitude)
+```
+
+--- 
+  
+## Shinyapps.io
+
+<iframe src='assets/img/shinyapps.png' width=600px height=250px>
+</iframe>  
+
+---
+  
+## Further information  
+
+  
+<br></br>  
+> Due to length limitation of slidify product, please check more detail on **Shinyapps.io** of this project.  
+<br></br>  
+
+<a href='https://neil2003tw.shinyapps.io/Working_Attitude_test/'>Shinyapps-Working Attitude test</a>
+
+
+
